@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    background: lightcoral;
+}
+
+.inlog {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: lightblue;
+    padding: 5rem;
+    height: 35rem;
+}
+
+form h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form label {
+    padding: 1rem;
+}
+
+form input {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 20rem;
+
+}
+
+.knop {
+    margin-top: 4rem;
+    background: lightgreen;
+    padding: 1.5rem;
+    border-radius: 20rem;
+}
